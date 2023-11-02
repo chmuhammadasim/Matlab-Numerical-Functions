@@ -1,16 +1,16 @@
-/**
- * Solves a system of linear equations using the Jacobi iterative method.
- *
- * @param a The coefficient matrix of the system.
- * @param b The constant vector of the system.
- * @param tol The tolerance for the error between iterations.
- * @param p The initial guess for the solution vector.
- * @param maxstep The maximum number of iterations to perform.
- * @param x The solution vector.
- * @param k The number of iterations performed.
- *
- * @return The solution vector and the number of iterations performed.
- */
+% /**
+%  * Solves a system of linear equations using the Jacobi iterative method.
+%  *
+%  * @param a The coefficient matrix of the system.
+%  * @param b The constant vector of the system.
+%  * @param tol The tolerance for the error between iterations.
+%  * @param p The initial guess for the solution vector.
+%  * @param maxstep The maximum number of iterations to perform.
+%  * @param x The solution vector.
+%  * @param k The number of iterations performed.
+%  *
+%  * @return The solution vector and the number of iterations performed.
+%  */
 function [x,k] = jacobi_i(a,b,tol,p,maxstep)
 
 % Get the length of the constant vector b
@@ -29,7 +29,7 @@ for k=1:maxstep
     for j=1:n
         
         % Calculate the new value of the jth element of the solution vector x
-        x(j)=(b(j)-a(j,1:j-1)*p(1:j-1)'-a(j, j+1:n)*p(j+1:n)')/a(j,j);
+        x(j)=(b(j)-a(j,1:j-1)*p(1:j-1)-a(j, j+1:n)*p(j+1:n))/a(j,j);
     end
     
     % Calculate the error between the previous solution vector p and the current solution vector x
