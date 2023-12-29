@@ -1,50 +1,99 @@
-<h1 align="center">🚀 MATLAB Function Library 🚀</h1>
+# Numerical Odyssey Toolbox 🚀
 
-Welcome to our MATLAB Function Library! 🎉 This repository houses a treasure trove of powerful and versatile MATLAB functions for an array of mathematical and computational challenges. Dive in, explore, and supercharge your MATLAB experience with these gems! 💎
+Welcome to the Numerical Odyssey Toolbox - an eclectic ensemble of MATLAB scripts and functions that embark on a journey through the fascinating realm of numerical methods. From interpolation to root-finding, these scripts are your trusty companions in the world of scientific computing and engineering.
 
+## Files:
 
-## 📜 List of Functions
+### 1. **InverseFun.m** 🌌
+   - *Plot twists in numbers:* Compute the enigmatic inverse function.
 
-📌 **Langrang.m**: Enchanting Lagrange interpolation to bring data to life.
+### 2. **Langrang.m** 🎭
+   - *Theater of interpolation:* Unleash the dramatic power of Lagrangian interpolation.
 
-🔍 **bisect.m**: Seek and find - roots of equations using the bisection method.
+### 3. **Project.m** 🚧
+   - *Masterplan:* The epicenter of the entire numerical odyssey.
 
-🔄 **forloop.m**: A journey through a MATLAB for loop. Adventure awaits!
+### 4. **Tas.m** 📚
+   - *Tales of tasks:* Task-specific functions adding narrative depth.
 
-⚙️ **gau_si.m**: Master the art of Gaussian elimination with scaled partial pivoting.
+### 5. **bessel_interpolation.m** 🌀
+   - *Waves of interpolation:* Bessel interpolation method making numerical waves.
 
-🌀 **jacobi_i.m**: Venture into the realm of Jacobi iterative method for solving linear systems.
+### 6. **bisect.m** ⚖️
+   - *Root-finding saga:* Enter the bisection method, where roots meet balance.
 
-🚀 **mymax.m**: Reach for the stars - discover the maximum value in an array.
+### 7. **bisecttest.m** 🕵️‍♂️
+   - *Detective work:* Test script for the enigmatic bisection method.
 
-📉 **mymin.m**: Dive into the abyss - find the minimum value in an array.
+### 8. **computeErrors.m** 📉
+   - *Error Chronicles:* A script to chronicle the errors that lurk in the numerical shadows.
 
-🧠 **newt_for.m**: Conquer complex problems with Newton-Raphson using a trusty for loop.
+### 9. **contbre.m** 🔄
+   - *Continuation dance:* A mesmerizing dance of continuation after the break.
 
-🌊 **newt_raph.m**: Ride the waves of numerical analysis with Newton-Raphson.
+### 10. **forloop.m** 🔄
+   - *Loop Symphony:* A musical script, orchestrating the beauty of a for loop.
 
-➕ **operation.m**: A treasure chest of mathematical operations. Unlock the secrets!
+### 11. **gau_si.m** 🌐
+   - *Global expedition:* Gaussian quadrature using the Simpson's rule, a global numerical exploration.
 
-🔲 **quadraticeq.m**: Solve quadratic equations like a seasoned mathematician.
+### 12. **gauss_backward_interpolation.m** ↩️
+   - *Backward whispers:* Gaussian backward interpolation, where the past converges to the present.
 
-🌟 **secent.m**: Sail through the seas of root-finding with the secant method.
+### 13. **gauss_forward_interpolation.m** ↪️
+   - *Forward echoes:* Gaussian forward interpolation, echoing the future from the past.
 
-🔺 **triangle.m**: Venture into the geometry of triangles. Every angle tells a story.
+### 14. **jacobi_i.m** 🌀
+   - *Iteration Symphony:* Jacobi iteration method, orchestrating convergence with mathematical harmony.
 
-🔄 **whileloop.m**: An odyssey through the realm of MATLAB while loops. Prepare to be amazed.
+### 15. **matlab.mat** 📦
+   - *Magic box:* A MATLAB data file, a mystical container possibly holding precomputed wonders.
 
-## 🚀 Usage
+### 16. **mymax.m** 🌟
+   - *Peak performance:* A custom function to unveil the maximum peak in an array, a star in the numerical sky.
 
-Unleash the power of these functions in just a few steps:
+### 17. **mymin.m** 🌠
+   - *Celestial minimum:* A custom function to discover the minimum gem in an array, a celestial body in numerical space.
 
-1. Download the `.m` file corresponding to your desired function.
-2. Set sail in MATLAB and ensure the `.m` file resides in your working directory or add the directory containing the `.m` file to your MATLAB path.
-3. Invoke the function from your MATLAB script or command window and let the magic happen.
+### 18. **new_divid.m** ÷
+   - *Division Reimagined:* Explore the new division method, a mathematical twist on an ancient operation.
 
-## 💡 Contributing
+### 19. **newt_back.m** 🔄
+   - *Backward Newtonian Leap:* Newton backward interpolation, a backward leap into the numerical unknown.
 
-Join us on this adventure of code! If you have ideas, enhancements, or new functions to add, don your creative hat and let's build a brighter future together. Create a pull request or share your thoughts through an issue. Your contributions are the sparks that fuel our journey.
+### 20. **newt_for.m** ↪️
+   - *Forward Newtonian Leap:* Newton forward interpolation, a forward leap into the numerical frontier.
 
-## 📜 License
+### 21. **newt_raph.m** 🌐
+   - *Rhapsody of Raphson:* Newton-Raphson method, a rhapsody of roots in numerical harmony.
 
-This collection is released under the MIT License - see the [LICENSE](LICENSE) file for more details. Embrace the freedom to explore and innovate!
+### 22. **operation.m** 🔄
+   - *Operation Overture:* A symphony of numerical operations, where mathematical instruments play in unison.
+
+### 23. **quadraticeq.m** 🌌
+   - *Quadratic Opera:* A dramatic solution to the quadratic equation, a celestial opera of numerical roots.
+
+### 24. **secent.m** ⚖️
+   - *Secant Serenade:* Serenade with the secant method, a dance of convergence and divergence.
+
+### 25. **simpsons_38_rule.m** 🎢
+   - *Simpson's Thrill:* Experience the 3/8 rule of numerical integration, a thrilling ride through numerical landscapes.
+
+### 26. **stirling_interpolation.m** ⭐
+   - *Starry Interpolation:* Stirling interpolation method, where numerical stars align to form a smooth curve.
+
+### 27. **strlng_itrpltn_2.m** ⭐
+   - *Another Starry Interpolation:* An alternate version of Stirling interpolation, unveiling yet another constellation.
+
+### 28. **threepoint_diff.m** 🔄
+   - *Differential Waltz:* A waltz with the three-point difference formula, dancing through numerical derivatives.
+
+### 29. **triangle.m** △
+   - *Triangular Mystique:* A script shrouded in the mystical geometry of triangles, possibly for numerical divination.
+
+### 30. **whileloop.m** 🔁
+   - *Endless Loop:* A script illustrating the infinite beauty of a while loop, a journey without end.
+
+---
+
+Embark on this numerical odyssey, explore the scripts, and let the mathematical adventure unfold! May your computations be ever precise, and your numerical methods lead you to undiscovered realms. 🚀✨
